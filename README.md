@@ -35,11 +35,6 @@ This project is a Library Management System API built using Spring Boot. It allo
 - **POST /api/borrow/{bookId}/patron/{patronId}**: Allow a patron to borrow a book.
 - **PUT /api/return/{bookId}/patron/{patronId}**: Record the return of a borrowed book by a patron.
 
-## Data Storage
-
-- Use a database such as H2, MySQL, or PostgreSQL to persist book, patron, and borrowing record details.
-- Set up appropriate relationships between entities (e.g., one-to-many between books and borrowing records).
-
 ## Validation and Error Handling
 
 - Implement input validation for API requests (e.g., validating required fields, data formats).
@@ -64,7 +59,7 @@ This project is a Library Management System API built using Spring Boot. It allo
 ## Testing
 
 - Write unit tests to validate the functionality of API endpoints.
-- Use testing frameworks like JUnit, Mockito, or SpringBootTest for testing.
+- Use testing SpringBootTest for testing.
 
 ## Documentation
 
